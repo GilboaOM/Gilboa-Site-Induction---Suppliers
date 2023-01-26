@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest identifier="aZy9nWz0JNzCS" xmlns="http://www.imsglobal.org/xsd/imscp_v1p1" xmlns:imsss="http://www.imsglobal.org/xsd/imsss" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_v1p3" xmlns:adlseq="http://www.adlnet.org/xsd/adlseq_v1p3" xmlns:adlnav="http://www.adlnet.org/xsd/adlnav_v1p3" xmlns:lom="http://ltsc.ieee.org/xsd/LOM" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.imsglobal.org/xsd/imscp_v1p1 imscp_v1p1.xsd http://www.imsglobal.org/xsd/imsss imsss_v1p0.xsd http://www.adlnet.org/xsd/adlcp_v1p3 adlcp_v1p3.xsd http://www.adlnet.org/xsd/adlseq_v1p3 adlseq_v1p3.xsd http://www.adlnet.org/xsd/adlnav_v1p3 adlnav_v1p3.xsd http://ltsc.ieee.org/xsd/LOM lom.xsd">
+<manifest identifier="aVkjJU4faangO" xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:lom="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
 <metadata>
 <schema>ADL SCORM</schema>
-<schemaversion>CAM 1.3</schemaversion>
+<schemaversion>1.2</schemaversion>
 <lom:lom>
 <lom:general>
 <lom:title>
-<lom:string>Gil_Induction</lom:string>
+<lom:langstring>Gil_Induction</lom:langstring>
 </lom:title>
 </lom:general>
 <lom:educational>
-<lom:typicalLearningTime>
-<lom:duration>PT1H0M0S</lom:duration>
-</lom:typicalLearningTime>
+<lom:typicallearningtime>
+<lom:datetime>01:00:00</lom:datetime>
+</lom:typicallearningtime>
 </lom:educational>
-<lom:metaMetadata>
-<lom:metadataSchema>LOMv1.0</lom:metadataSchema>
-<lom:metadataSchema>SCORM_CAM_v1.3</lom:metadataSchema>
-</lom:metaMetadata>
 </lom:lom>
 </metadata>
 <organizations default="gil_induction_organization">
@@ -25,23 +21,18 @@
 <title>Gil_Induction</title>
 <item identifier="F32EAB0E-3466-4C33-A5FD-E6D0DB8D2E92" identifierref="resource">
 <title>Gilboa Site Induction 2023</title>
-<imsss:sequencing>
-<imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true"/>
-</imsss:sequencing>
 </item>
-<imsss:sequencing>
-<imsss:controlMode flow="true"/>
-</imsss:sequencing>
 </organization>
 </organizations>
 <resources>
-<resource identifier="resource" type="webcontent" adlcp:scormType="sco" href="res/index.html">
+<resource identifier="resource" type="webcontent" adlcp:scormtype="sco" href="res/index.html">
 <file href="res/index.html"/>
 <file href="res/lms.js"/>
 <file href="res/data/thmb1.png"/>
 <file href="res/data/slide1.js"/>
 <file href="res/data/slide1.css"/>
 <file href="res/data/thmb2.png"/>
+<file href="res/data/video1.webm"/>
 <file href="res/data/slide2.js"/>
 <file href="res/data/slide2.css"/>
 <file href="res/data/thmb3.png"/>
@@ -168,7 +159,6 @@
 <file href="res/data/fnt15.woff"/>
 <file href="res/data/fnt16.woff"/>
 <file href="res/data/fnt17.woff"/>
-<file href="res/data/fnt18.woff"/>
 <file href="res/data/fnt2.woff"/>
 <file href="res/data/fnt3.woff"/>
 <file href="res/data/fnt4.woff"/>
@@ -186,51 +176,52 @@
 <file href="res/data/img101.jpg"/>
 <file href="res/data/img102.jpg"/>
 <file href="res/data/img103.jpg"/>
-<file href="res/data/img104.png"/>
-<file href="res/data/img105.jpg"/>
+<file href="res/data/img104.jpg"/>
+<file href="res/data/img105.png"/>
 <file href="res/data/img106.jpg"/>
 <file href="res/data/img107.jpg"/>
-<file href="res/data/img108.png"/>
+<file href="res/data/img108.jpg"/>
 <file href="res/data/img109.png"/>
-<file href="res/data/img11.jpg"/>
+<file href="res/data/img11.png"/>
 <file href="res/data/img110.png"/>
 <file href="res/data/img111.png"/>
-<file href="res/data/img112.jpg"/>
-<file href="res/data/img113.png"/>
+<file href="res/data/img112.png"/>
+<file href="res/data/img113.jpg"/>
 <file href="res/data/img114.png"/>
 <file href="res/data/img115.png"/>
 <file href="res/data/img116.png"/>
 <file href="res/data/img117.png"/>
 <file href="res/data/img118.png"/>
+<file href="res/data/img119.png"/>
 <file href="res/data/img12.jpg"/>
 <file href="res/data/img13.jpg"/>
 <file href="res/data/img14.jpg"/>
 <file href="res/data/img15.jpg"/>
 <file href="res/data/img16.jpg"/>
 <file href="res/data/img17.jpg"/>
-<file href="res/data/img18.png"/>
+<file href="res/data/img18.jpg"/>
 <file href="res/data/img19.png"/>
 <file href="res/data/img2.jpg"/>
-<file href="res/data/img20.jpg"/>
-<file href="res/data/img21.png"/>
-<file href="res/data/img22.jpg"/>
+<file href="res/data/img20.png"/>
+<file href="res/data/img21.jpg"/>
+<file href="res/data/img22.png"/>
 <file href="res/data/img23.jpg"/>
 <file href="res/data/img24.jpg"/>
 <file href="res/data/img25.jpg"/>
 <file href="res/data/img26.jpg"/>
 <file href="res/data/img27.jpg"/>
 <file href="res/data/img28.jpg"/>
-<file href="res/data/img29.png"/>
+<file href="res/data/img29.jpg"/>
 <file href="res/data/img3.jpg"/>
-<file href="res/data/img30.jpg"/>
+<file href="res/data/img30.png"/>
 <file href="res/data/img31.jpg"/>
 <file href="res/data/img32.jpg"/>
 <file href="res/data/img33.jpg"/>
-<file href="res/data/img34.png"/>
-<file href="res/data/img35.jpg"/>
+<file href="res/data/img34.jpg"/>
+<file href="res/data/img35.png"/>
 <file href="res/data/img36.jpg"/>
-<file href="res/data/img37.png"/>
-<file href="res/data/img38.jpg"/>
+<file href="res/data/img37.jpg"/>
+<file href="res/data/img38.png"/>
 <file href="res/data/img39.jpg"/>
 <file href="res/data/img4.png"/>
 <file href="res/data/img40.jpg"/>
@@ -241,10 +232,10 @@
 <file href="res/data/img45.jpg"/>
 <file href="res/data/img46.jpg"/>
 <file href="res/data/img47.jpg"/>
-<file href="res/data/img48.png"/>
+<file href="res/data/img48.jpg"/>
 <file href="res/data/img49.png"/>
-<file href="res/data/img5.png"/>
-<file href="res/data/img50.jpg"/>
+<file href="res/data/img5.jpg"/>
+<file href="res/data/img50.png"/>
 <file href="res/data/img51.jpg"/>
 <file href="res/data/img52.jpg"/>
 <file href="res/data/img53.jpg"/>
@@ -253,16 +244,16 @@
 <file href="res/data/img56.jpg"/>
 <file href="res/data/img57.jpg"/>
 <file href="res/data/img58.jpg"/>
-<file href="res/data/img59.png"/>
+<file href="res/data/img59.jpg"/>
 <file href="res/data/img6.png"/>
-<file href="res/data/img60.jpg"/>
+<file href="res/data/img60.png"/>
 <file href="res/data/img61.jpg"/>
-<file href="res/data/img62.png"/>
-<file href="res/data/img63.jpg"/>
+<file href="res/data/img62.jpg"/>
+<file href="res/data/img63.png"/>
 <file href="res/data/img64.jpg"/>
 <file href="res/data/img65.jpg"/>
-<file href="res/data/img66.png"/>
-<file href="res/data/img67.jpg"/>
+<file href="res/data/img66.jpg"/>
+<file href="res/data/img67.png"/>
 <file href="res/data/img68.jpg"/>
 <file href="res/data/img69.jpg"/>
 <file href="res/data/img7.png"/>
@@ -275,27 +266,27 @@
 <file href="res/data/img76.jpg"/>
 <file href="res/data/img77.jpg"/>
 <file href="res/data/img78.jpg"/>
-<file href="res/data/img79.png"/>
+<file href="res/data/img79.jpg"/>
 <file href="res/data/img8.png"/>
 <file href="res/data/img80.png"/>
-<file href="res/data/img81.jpg"/>
+<file href="res/data/img81.png"/>
 <file href="res/data/img82.jpg"/>
 <file href="res/data/img83.jpg"/>
 <file href="res/data/img84.jpg"/>
 <file href="res/data/img85.jpg"/>
-<file href="res/data/img86.png"/>
-<file href="res/data/img87.jpg"/>
+<file href="res/data/img86.jpg"/>
+<file href="res/data/img87.png"/>
 <file href="res/data/img88.jpg"/>
 <file href="res/data/img89.jpg"/>
 <file href="res/data/img9.png"/>
 <file href="res/data/img90.jpg"/>
-<file href="res/data/img91.png"/>
+<file href="res/data/img91.jpg"/>
 <file href="res/data/img92.png"/>
 <file href="res/data/img93.png"/>
-<file href="res/data/img94.jpg"/>
-<file href="res/data/img95.png"/>
+<file href="res/data/img94.png"/>
+<file href="res/data/img95.jpg"/>
 <file href="res/data/img96.png"/>
-<file href="res/data/img97.jpg"/>
+<file href="res/data/img97.png"/>
 <file href="res/data/img98.jpg"/>
 <file href="res/data/img99.jpg"/>
 </resource>
